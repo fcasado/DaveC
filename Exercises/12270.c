@@ -10,7 +10,7 @@
 
 int main()
 {
-    float a,b,sum;
+    float a,b;
     printf("\nInput two numbers: ");
     scanf("%f %f", &a, &b);
     printf("\nSum: %.2f", a+b);
