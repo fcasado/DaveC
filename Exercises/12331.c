@@ -11,11 +11,10 @@ int main(void)
         while(v != 1){
             if(v % 2 == 0){
                 v /= 2;
-                i++;
             }else{
                 v = v*3 + 1;
-                i++;
             }
+            i++;
             printf("Next value is %d\n",v);
         }
         printf("Final value is %d, number of steps %d\n", v, i);
