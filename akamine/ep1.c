@@ -65,7 +65,7 @@ int quebra(char chave[], char str[]){
 }
 
 int sigilo(char chave[], char str[]){
-    int x = 0, i = 0, j = 0, m = tamanho(chave), n = tamanho(str);
+    int x = 0, i = 0, j = 0, m = tamanho(chave);
     for(i = 0; str[i] != '\0'; i++){
         for(j = 0; chave[j] != '\0'; j++){
             if(str[i+j] == chave[j])
